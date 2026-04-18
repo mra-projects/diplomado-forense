@@ -1,0 +1,73 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('../img/hero.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.65);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-badges span {
+  margin: 0 10px;
+  font-size: 0.9rem;
+}
+
+/* SECCIONES */
+.section {
+  background: white;
+  padding: 40px;
+  margin: 20px 0;
+  border-radius: 12px;
+}
+
+/* BOTÓN */
+.btn-main {
+  background: #1a2a6c;
+  color: white;
+  border-radius: 30px;
+}
+
+/* NAVBAR */
+#mainNavbar {
+  transition: all 0.4s ease;
+}
+
+#mainNavbar.navbar-transparent {
+  background: transparent;
+}
+
+#mainNavbar.navbar-scrolled {
+  background: rgba(26, 42, 108, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
