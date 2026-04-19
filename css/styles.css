@@ -71,3 +71,8 @@ body {
 .nav-link.active {
   font-weight: bold;
 }
+
+.navbar-brand img {
+  max-height: 45px;
+  width: auto;
+}
